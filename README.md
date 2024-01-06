@@ -1,3 +1,3 @@
 # Distillation-Embedded-Absorbable-Pruning-for-Fast-Object-Re-identification
 
-python VeRi/main.py
+python VeRi_PR/main.py
