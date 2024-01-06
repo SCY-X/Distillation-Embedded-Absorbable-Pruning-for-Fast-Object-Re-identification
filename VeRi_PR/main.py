@@ -1,8 +1,3 @@
-"""
-@author:  muzishen
-@contact: shenfei140721@126.com
-"""
-
 import os
 import torch
 from config import cfg
