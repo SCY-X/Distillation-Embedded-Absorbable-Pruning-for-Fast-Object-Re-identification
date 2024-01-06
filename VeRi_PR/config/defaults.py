@@ -26,13 +26,13 @@ _C.MODEL.DEVICE_ID = '0'
 # Teacher Name of backbone
 _C.MODEL.TEACHER_NAME = 't_resnet101'
 # Teacher model path
-_C.MODEL.TEACHER_PATH = '/home/data1/xieyi/DEAP/Teacher/VeRi_T101.pth'
+_C.MODEL.TEACHER_PATH = './Teacher/VeRi_T101.pth'
 # Student Name of backbone
 _C.MODEL.NAME = 's_resnet101'
 # Last stride of backbone
 _C.MODEL.LAST_STRIDE = 1
 # Path to pretrained model of backbone
-_C.MODEL.PRETRAIN_PATH = '/home/data1/xieyi/Pretrained_Model/resnet101.pth'
+_C.MODEL.PRETRAIN_PATH = './Pretrained_Model/resnet101.pth'
 # Use ImageNet pretrained model to initialize backbone or use self trained model to initialize the whole model
 # Options: 'imagenet' , 'finetune',
 _C.MODEL.PRETRAIN_CHOICE = 'imagenet'
@@ -110,7 +110,7 @@ _C.DATASETS = CN()
 # List of the dataset names for training, as present in paths_catalog.py
 _C.DATASETS.NAMES = ('veri')
 # Root directory where datasets should be used (and downloaded if not found)
-_C.DATASETS.ROOT_DIR = ('/home/data1/xieyi/data')
+_C.DATASETS.ROOT_DIR = ('./data')
 
 # -----------------------------------------------------------------------------
 # DataLoader
